@@ -13,15 +13,13 @@ class DmozItem(scrapy.Item):
     link = scrapy.Field()
     desc = scrapy.Field()
 
+
 class SampleItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field()
 
-class CommunityItem(scrapy.Item):
-    source = scrapy.Field()
-    category = scrapy.Field()
-    title = scrapy.Field()
-    url = scrapy.Field()
-    hits = scrapy.Field()
-    date = scrapy.Field()
+# class SampleTwoItem(scrapy.Item):
+#     title = scrapy.Field()
+#     link = scrapy.Field()
+#     desc = scrapy.Field()
